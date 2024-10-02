@@ -1,0 +1,67 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 700px 700px 480px;
+    grid-template-rows: 250px 50px 600px 50px; 
+    grid-template-areas: 
+    'enc enc enc'
+    'lin lin lin'
+    'mis vis inf'
+    'pie pie pie'
+    ;
+}
+
+.ban{
+    height: 250px;
+    width: 1880px;
+}
+
+header{
+    background-color: beige;
+    grid-area: enc;
+}
+
+aside{
+    background-color: black;
+    grid-area: lin;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: gold;
+}
+
+main{
+    background-color: aquamarine;
+    grid-area: mis;
+    text-align: center;
+}
+
+nav{
+    background-color: blue;
+    grid-area: vis;
+    text-align: center;
+}
+
+section{
+    background-color: aquamarine;
+    grid-area: inf;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    grid-area: pie;
+    color: gold;
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    height: 100px;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+}

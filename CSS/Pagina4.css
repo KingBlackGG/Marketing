@@ -1,0 +1,58 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 750px 750px 380px;
+    grid-template-rows: 250px 50px 600px 50px; 
+    grid-template-areas: 
+    'enc enc enc'
+    'lin lin lin'
+    'mis vis inf'
+    'pie pie pie'
+    ;
+}
+
+.img{
+    height: 250px;
+    width: 1880px;
+}
+
+header{
+    background-color: beige;
+    grid-area: enc;
+}
+
+aside{
+    background-color: black;
+    grid-area: lin;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: gold;
+    text-align: center;
+}
+
+main{
+    background-color: aquamarine;
+    grid-area: mis;
+    text-align: center
+}
+
+nav{
+    background-color: blue;
+    grid-area: vis;
+    text-align: center;
+}
+
+section{
+    background-color: aquamarine;
+    grid-area: inf;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    grid-area: pie;
+    color: gold;
+    text-align: center;
+}
